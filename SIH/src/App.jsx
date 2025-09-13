@@ -2,25 +2,29 @@ import { Routes, Route } from "react-router-dom";
 import Nav from "./components/Nav"
 import Reel from "./components/Reel"
 import Hero from "./components/Hero"
+import Footer from "./components/Footer";
+
+
+function HomePage() {
+  return (
+    <>
+        <Nav />
+        <Hero />
+        <Footer />
+    </>
+  );
+}
 
 function App() {
   return (
-    <>
-      <Routes>
-        <Route
-          path="/"
-          element={
-            <>
-              <Nav />
-              <Hero />
-            </>
-          }
-        />
+    <Routes>
+      {/* Normal single-page site */}
+      <Route path="/" element={<HomePage />} />
 
-        <Route path="/Reel" element={<Reel />} />
-      </Routes>
-    </>
-  )
+      {/* Reel page (separate) */}
+      <Route path="/reel" element={<Reel />} />
+    </Routes>
+  );
 }
 
 export default App

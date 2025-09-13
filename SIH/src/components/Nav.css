@@ -1,15 +1,23 @@
 .sign_btn{
-    background: #74C69D;
+    background: #184E6C;
+    outline: none;
     border-radius: 2rem;
     padding: 10px;
     width:90px;
-    color: white;
+    color: #DDECF6;
+    border: 2px solid #DDECF6;
 }
 
 .sign_btn:hover{
-    background: #52B788;
+    background: #DDECF6;
+    color:#184E6C;
+    border: none;
 }
 
 .menu{
-    color: white;
+    color: #DDECF6;
+}
+
+.menu:hover{
+    color:#DDECF6 ;
 }

@@ -2,6 +2,7 @@ import React,{useEffect} from 'react'
 import vid1 from '../components/videos/vid1.mp4';
 import vid2 from './videos/vid2.mp4';
 import vid3 from './videos/vid3.mp4';
+import "./Reel.css";
 
 function Reel() {
     const callback = (entries) => {

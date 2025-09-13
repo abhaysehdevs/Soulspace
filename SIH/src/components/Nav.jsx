@@ -3,10 +3,10 @@ import { Link } from "react-router-dom";
 
 function Nav() {
     return (
-        <div className="h-[10vh] bg-[#081C15] w-[100vw] top-0 left-0 fixed flex items-center">
+        <div className="h-[10vh] bg-[#184E6C] w-[100vw] top-0 left-0 fixed flex items-center">
             <div className="container mx-auto flex items-center justify-between px-3 py-4">
                 {/* LOGO */}
-                <span className=" text-3xl font-bold text-[#95D5B2]">MyLogo</span>
+                <span className=" text-3xl font-bold text-[#DDECF6]">MyLogo</span>
 
                 {/* MENU */}
                 <ul className="flex space-x-8 font-medium">
