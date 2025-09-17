@@ -1,0 +1,30 @@
+.btn{
+    padding: 10px;
+    outline: none;
+    width: 120px;
+    text-align: center;
+}
+
+.counselling{
+    background: #184E6C;
+    color: #DDECF6;
+    border: 2px solid #DDECF6;
+}
+
+.hello{
+    color: #184E6C;
+    background: #DDECF6;
+    border: 2px solid #184E6C;
+}
+
+.btn:hover{
+    transform: scale(1.1);
+}
+
+.counselling:hover{
+    border: 2px solid #DDECF6;
+}
+
+.hello:hover{
+    border: 2px solid #184E6C;
+}
