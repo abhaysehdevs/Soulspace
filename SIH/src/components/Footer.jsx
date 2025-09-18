@@ -4,10 +4,10 @@ function Footer() {
     return (
         <div className="bg-[#184E6C] text-[#DDECF6]  w-[99vw] relative">
             <div className="flex justify-between px-[500px] pt-4">
-                <a href="" className="mfoot">About</a>
-                <a href="" className="mfoot">Resource Hub</a>
-                <a href="" className="mfoot">Community</a>
-                <a href="" className="mfoot">Counselling</a>
+                <a href="#About" className="mfoot">About</a>
+                <a href="#" className="mfoot">Resource Hub</a>
+                <a href="#" className="mfoot">Community</a>
+                <a href="#" className="mfoot">Counselling</a>
             </div>
             <div className="py-14 px-10 list-none grid grid-cols-3" id="footer">
                 <div className="flex flex-col justify-center border-r-2 border-[#ddecf637] items-center">

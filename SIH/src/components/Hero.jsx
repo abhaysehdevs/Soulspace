@@ -3,7 +3,7 @@ import HeroImg from "../assets/Hero.png"
 
 function Hero() {
     return (
-        <div className="h-screen bg-[#DDECF6] relative top-[10vh] flex">
+        <div className="hero-sec h-screen bg-[#DDECF6] relative top-[10vh] flex">
             <div className="flex flex-col justify-center w-[50%] h-full p-20">
                 <div className="">
                     <h1 className="font-bold">Lorem, ipsum dolor.</h1>
@@ -12,7 +12,7 @@ function Hero() {
                 </div>
                 <div className="flex gap-4 mt-10">
                     <button className="btn counselling">Counselling</button>
-                    <button className="btn hello">Hello</button>
+                    <button className="btn hello">Give Test</button>
                 </div>
             </div>
             <div className="w-[50%] h-full flex justify-center items-center">

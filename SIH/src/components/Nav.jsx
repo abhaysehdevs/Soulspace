@@ -10,7 +10,7 @@ function Nav() {
 
                 {/* MENU */}
                 <ul className="flex space-x-8 font-medium">
-                    <li><a href="#" className="menu">About</a></li>
+                    <li><a href="#About" className="menu">About</a></li>
                     <li><Link to="/Reel" className="menu">Resource Hub</Link></li>
                     <li><a href="#" className="menu">Community</a></li>
                     <li><a href="#" className="menu">Counselling</a></li>
