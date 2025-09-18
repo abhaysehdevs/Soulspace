@@ -14,24 +14,24 @@ import About from "./components/About";
 function HomePage() {
   return (
     <>
-        <Nav />
-        <Hero />
-        <About/>
-        <Footer />
-        <Chatbot/>
+      <Hero />
+      <About />
+      <Footer />
+      <Chatbot />
     </>
   );
 }
 
 function App() {
   return (
-    <Routes>
-      {/* Normal single-page site */}
-      <Route path="/" element={<HomePage />} />
+    <>
+      <Nav />
+      <Routes>
+        <Route path="/" element={<HomePage />} />
 
-      {/* Reel page (separate) */}
-      <Route path="/reel" element={<Reel />} />
-    </Routes>
+        <Route path="/reel" element={<Reel />} />
+      </Routes>
+    </>
   );
 }
 
