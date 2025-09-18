@@ -1,15 +1,17 @@
 import "./Footer.css"
+import { Link } from "react-router-dom";
+
 
 function Footer() {
     return (
         <div className="bg-[#184E6C] text-[#DDECF6]  w-[99vw] relative">
             <div className="flex justify-between px-[500px] pt-4">
                 <a href="#About" className="mfoot">About</a>
-                <a href="#" className="mfoot">Resource Hub</a>
+                <Link to="/Reel" className="mfoot">Resource Hub</Link>
                 <a href="#" className="mfoot">Community</a>
                 <a href="#" className="mfoot">Counselling</a>
             </div>
-            <div className="py-14 px-10 list-none grid grid-cols-3" id="footer">
+            <div className="py-14 px-10 list-none grid grid-cols-2" id="footer">
                 <div className="flex flex-col justify-center border-r-2 border-[#ddecf637] items-center">
                     <div>
                         <h2 className="text-2xl font-semibold mb-[4px]">Contact Us</h2>
@@ -20,19 +22,6 @@ function Footer() {
                         <li>
                             <i className="fa-solid fa-phone foot-i"></i>
                             <span>+91 92222 26666</span>
-                        </li>
-                    </div>
-                </div>
-                <div className="px-10 flex flex-col justify-center border-r-2 border-[#ddecf637] items-center">
-                    <div>
-                        <h2 className="text-2xl font-semibold mb-[4px]">Subscribe Us</h2>
-                        <li>
-                            <i class="fa-brands fa-facebook foot-i"></i>
-                            <span>soulspace f</span>
-                        </li>
-                        <li>
-                            <i class="fa-brands fa-instagram foot-i"></i>
-                            <span>soulspace i</span>
                         </li>
                     </div>
                 </div>
