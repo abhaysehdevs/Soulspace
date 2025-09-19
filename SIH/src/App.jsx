@@ -11,6 +11,7 @@ import Footer from "./components/Footer";
 import Chatbot from "./components/Chatbot";
 import About from "./components/About";
 import Offer from "./components/Offer";
+import Community from "./components/Community";
 
 function HomePage() {
   return (
@@ -30,7 +31,7 @@ function App() {
       <Nav />
       <Routes>
         <Route path="/" element={<HomePage />} />
-
+        <Route path="/community" element={<Community />} />
         <Route path="/reel" element={<Reel />} />
       </Routes>
     </>
