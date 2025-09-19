@@ -1,5 +1,7 @@
 import "./Nav.css"
 import { Link } from "react-router-dom";
+import { HashLink } from 'react-router-hash-link';
+
 
 function Nav() {
     return (
@@ -10,11 +12,11 @@ function Nav() {
 
                 {/* MENU */}
                 <ul className="flex space-x-8 font-medium">
-                    <li><a href="#About" className="menu">About</a></li>
+                    <li><HashLink smooth to="/#about" className="menu">About</HashLink></li>
                     <li><Link to="/Reel" className="menu">Resource Hub</Link></li>
                     <li><a href="#" className="menu">Community</a></li>
                     <li><a href="#" className="menu">Counselling</a></li>
-                    <li><a href="#footer" className="menu">Contact Us</a></li>
+                    <li><HashLink smooth to="/#footer" className="menu">Contact Us</HashLink></li>
                 </ul>
 
                 {/* Log In Buttons */}

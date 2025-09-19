@@ -10,12 +10,14 @@ import Hero from "./components/Hero"
 import Footer from "./components/Footer";
 import Chatbot from "./components/Chatbot";
 import About from "./components/About";
+import Offer from "./components/Offer";
 
 function HomePage() {
   return (
     <>
       <Hero />
       <About />
+      {/* <Offer/> */}
       <Footer />
       <Chatbot />
     </>
