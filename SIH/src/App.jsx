@@ -17,7 +17,7 @@ function HomePage() {
     <>
       <Hero />
       <About />
-      <Offer width={400} height={250} quantity={3}/>
+      <Offer width={400} height={250} quantity={5}/>
       <Footer />
       <Chatbot />
     </>

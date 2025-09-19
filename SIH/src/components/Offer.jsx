@@ -3,11 +3,13 @@ import "./Offer.css";
 import rob from "../assets/images/off_bot.jpg"
 import peer from "../assets/images/off_connect.svg"
 import online from "../assets/images/off_vid.jpg"
+import activities from "../assets/images/off_act.jpg"
+import relax from "../assets/images/off_relax.jpg"
 
 export default function Slider({ width, height, quantity, reverse }) {
     return (
-        <>
-        <div className="text-center text-[3.2em] font-bold p-10">What We Offer</div>
+        <div className="wrapper">
+            <div className="text-center text-[3.2em] font-bold p-10">What We Offer</div>
             <div
                 className="slider overflow-x-hidden"
                 style={{
@@ -19,23 +21,33 @@ export default function Slider({ width, height, quantity, reverse }) {
             >
                 <div className="list">
                     <div className="item" style={{ "--position": 1 }}>
-                        <img src={rob} alt="" className="h-20 m-auto"/>
+                        <img src={rob} alt="" className="h-20 m-auto" />
                         <h2 className="">Chatbot Services</h2>
                         <p>Our AI chatbot is available 24/7 to offer instant mental health support. Get stress-relief tips, anxiety guidance, or a safe space to share your thoughts. It can also connect you with resources and professionals—right from your phone or computer.</p>
                     </div>
                     <div className="item" style={{ "--position": 2 }}>
-                        <img src={peer} alt="" className="h-20 m-auto"/>
+                        <img src={peer} alt="" className="h-20 m-auto" />
                         <h2 className="">Peer to Peer</h2>
                         <p>Healing doesn’t have to be lonely. Our moderated peer-to-peer community is a safe, supportive space to share experiences, get encouragement, and connect with others who understand your challenges—without judgment.</p>
                     </div>
                     <div className="item" style={{ "--position": 3 }}>
-                        <img src={online} alt="" className="h-20 m-auto"/>
+                        <img src={online} alt="" className="h-20 m-auto" />
                         <h2 className="">Online Sessions</h2>
                         <p>Sometimes self-help isn’t enough. Our online sessions connect you with licensed mental health professionals via secure video calls. Flexible, private, and affordable, these sessions provide personalized support for stress, anxiety, depression, or simply having someone to listen.</p>
+                    </div>
+                    <div className="item" style={{ "--position": 4 }}>
+                        <img src={activities} alt="" className="h-20 m-auto" />
+                        <h2 className="">Guided Activities</h2>
+                        <p>Our stress-relief activities are designed to help you relax, recharge, and find balance. From guided mindfulness exercises to creative workshops and practical coping techniques, these activities give you simple ways to manage stress and improve your wellbeing—anytime, anywhere.</p>
+                    </div>
+                    <div className="item" style={{ "--position": 5 }}>
+                        <img src={relax} alt="" className="h-20 m-auto" />
+                        <h2 className="">Guided Relaxation and Breathing Exercises</h2>
+                        <p>Access quick, guided relaxation and breathing exercises to calm your mind, reduce stress, and regain focus whenever you need a mental reset.</p>
                     </div>
                 </div>
             </div>
             <div className="p-10"></div>
-        </>
+        </div>
     );
 }
